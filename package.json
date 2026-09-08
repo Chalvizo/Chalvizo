@@ -1,0 +1,16 @@
+{
+  "name": "chalvizo",
+  "version": "1.0.0",
+  "description": "Playwright browser tests",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.62",
+    "@types/node": "^26.5.0",
+    "typescript": "^7.0.2"
+  }
+}
